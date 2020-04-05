@@ -28,6 +28,7 @@ num_false = len(df.loc[df['diabetes'] == 0])
 print("Number of True cases:  {0} ({1:2.2f}%)".format(num_true, (num_true/num_obs) * 100))
 print("Number of False cases: {0} ({1:2.2f}%)".format(num_false, (num_false/num_obs) * 100))
 
+
 # As per the above data set we can see there is, 
 #   Number of True cases:  268 (34.90%)
 #   Number of False cases: 500 (65.10%)
